@@ -1,0 +1,118 @@
+/* style.css */
+body {
+    background-color: black;
+}
+
+/* img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image {
+    margin-bottom: 10px;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .distrokid {
+    border-color: #930303;
+    color: rgb(245, 244, 244);
+  }
+  
+  .distrokid:hover {
+    background-color: #646464;
+    color: white;
+  }
+
+  .submission {
+    border-color: #930303;
+    color: rgb(245, 244, 244);
+    align-items: center;
+  }
+  
+  .submission:hover {
+    background-color: #646464;
+    color: white;
+    align-items: center;
+  }
+
+
+  /* Style input box */
+  input[type=text], select {
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0);
+    border-color: #930303;
+    color: rgb(255, 253, 253);
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /* style input box when typing */
+  input[type=text]:focus {
+    background-color: rgb(0, 0, 0);
+    border-color: #930303;
+    color: rgb(255, 253, 253);
+  }
+
+  
+  .flex-parent {
+    display: flex;
+  }
+  
+  .jc-center {
+    justify-content: center;
+  }
+
+  /* style responseLabel */
+  .responseLabel {
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
+    padding: 3px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    align-items: center;
+    display: none;
+  }
+
+.presave{
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.emailstuff{
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+  
+
